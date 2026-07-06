@@ -3,8 +3,8 @@ function setup() {
   new Canvas(800, 500);
   background("pink"); //background color
 
-  fill("lavender")
-  stroke("purple")
+  fill("black")
+  stroke("black")
   strokeWeight(2)
 
   circle(30, 30, 50)
