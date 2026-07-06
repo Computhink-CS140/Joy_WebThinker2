@@ -15,7 +15,8 @@ function setup() {
   ball.color = "hotpink"
   
   box = new Sprite();
-  
+  box.x = 100;
+  box.y = 100
   
   // Basic shape testing
   // write your codes here
