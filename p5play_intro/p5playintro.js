@@ -13,7 +13,7 @@ function setup() {
   ball.y = 200;
   ball.diameter = 40;
   ball.color = "hotpink"
-  ball.vel
+  ball.vel.x = 
   
   box = new Sprite();
   box.x = 100;
