@@ -13,7 +13,7 @@ function setup() {
   ball.color = "hotpink"
   ball.vel.x = 10;
   ball.vel.y = 10;
-  ball.bounciness = 3;
+  ball.bounciness = 2;
   ball.collider = "dynamic"
   
   box = new Sprite();
