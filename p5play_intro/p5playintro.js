@@ -36,4 +36,3 @@ function draw() {
   background(240);
 
 }
-
