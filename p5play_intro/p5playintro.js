@@ -37,5 +37,5 @@ function draw() {
 
   fill(0);
   textSize(16);
-  text("Ball: (")
+  text("Ball: (" + int)
 }
