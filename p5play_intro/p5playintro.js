@@ -47,6 +47,7 @@ function draw() {
     ball.vel.y += -1;
   }
 
+  box 
 
 }
   
