@@ -18,7 +18,8 @@ function setup() {
   box.x = 100;
   box.y = 100;
   box.w = 50
-  box.
+  box.h = 50
+  box 
   
   // Basic shape testing
   // write your codes here
