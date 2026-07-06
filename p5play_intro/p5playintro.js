@@ -6,9 +6,9 @@ function setup() {
   new Canvas(800, 500);
   background("pink"); //background color
 
-  fill("hotpink")
-  stroke("black")
-  strokeWeight(5)
+  fill("hotpink");
+  stroke("black");
+  strokeWeight(5);
 
   circle(385, 240, 100)
   
