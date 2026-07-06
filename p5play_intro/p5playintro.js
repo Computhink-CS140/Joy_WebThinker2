@@ -19,7 +19,7 @@ function setup() {
   box.y = 100;
   box.w = 50
   box.h = 50
-  box 
+  box.color = "hotpink"
   
   // Basic shape testing
   // write your codes here
