@@ -4,8 +4,8 @@ function setup() {
   background("pink"); //background color
 
   fill("black")
-  stroke("black")
-  strokeWeight(2)
+  stroke("hotpink")
+  strokeWeight(5)
 
   circle(30, 30, 50)
   
