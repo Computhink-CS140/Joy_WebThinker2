@@ -15,7 +15,8 @@ function setup() {
   ball.color = "hotpink"
   ball.vel.x = 30;
   ball.vel.y = 30;
-  ball.bouncie
+  ball.bounciness = 1
+  
   
   box = new Sprite();
   box.x = 100;
