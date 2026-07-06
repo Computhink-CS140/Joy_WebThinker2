@@ -22,14 +22,6 @@ function setup() {
   box.w = 50;
   box.h = 50;
   box.color = "hotpink"
-  
-  // Basic shape testing
-  // write your codes here
- 
-  // End Basic shape testing
-
-   // Create a bouncing ball sprite
-   // write your codes here
 
 }
 
