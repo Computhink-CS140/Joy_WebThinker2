@@ -7,8 +7,8 @@ function setup() {
   stroke("blue")
   strokeWeight(2)
 
-    circle(30, 30, 50)
-
+  circle(30, 30, 50)
+  
   
   // Basic shape testing
   // write your codes here
