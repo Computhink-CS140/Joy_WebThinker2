@@ -6,8 +6,6 @@ function setup() {
   new Canvas(800, 500);
   background("pink"); //background color
 
-
-
   ball = new Sprite();
   ball.x = 100;
   ball.y = 200;
