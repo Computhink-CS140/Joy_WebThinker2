@@ -12,6 +12,8 @@ function setup() {
 
   ball = new Sprite();
   ball.x = 100;
+  ball.y = 200;
+  
   circle(385, 240, 100)
   
   
