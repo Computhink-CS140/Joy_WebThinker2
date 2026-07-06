@@ -16,12 +16,12 @@ function setup() {
   ball.bounciness = 1;
   ball.collider = "dynamic"
   
-  box = new Sprite();
-  box.x = 100;
-  box.y = 100;
-  box.w = 50;
-  box.h = 50;
-  box.color = "hotpink"
+  // box = new Sprite();
+  // box.x = 100;
+  // box.y = 100;
+  // box.w = 50;
+  // box.h = 50;
+  // box.color = "hotpink"
   
   // Basic shape testing
   // write your codes here
@@ -49,8 +49,8 @@ function draw() {
     ball.vel.y += -1;
   }
 
-  box.x = mouseX
-  box.y = mouseY
+  // box.x = mouseX
+  // box.y = mouseY
 
 }
   
