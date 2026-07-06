@@ -5,6 +5,7 @@ function setup() {
 
   fill("skyblue")
   stroke("blue")
+  strokeWeight(2)
   // Basic shape testing
   // write your codes here
  
