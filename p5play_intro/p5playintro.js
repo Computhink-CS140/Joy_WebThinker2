@@ -3,6 +3,7 @@ function setup() {
   new Canvas(800, 500);
   background("pink"); //background color
 
+
   // Basic shape testing
   // write your codes here
  
