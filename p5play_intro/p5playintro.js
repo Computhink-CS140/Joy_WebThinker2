@@ -6,14 +6,12 @@ function setup() {
   new Canvas(800, 500);
   background("pink"); //background color
 
-  fill("hotpink");
-  stroke("black");
-  strokeWeight(5);
+
 
   ball = new Sprite();
   ball.x = 100;
   ball.y = 200;
-  ball.diameter = 10;
+  ball.diameter = 40;
   ball.color = "hotpink"
   
   
