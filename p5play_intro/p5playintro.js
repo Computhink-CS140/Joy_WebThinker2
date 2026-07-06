@@ -35,4 +35,6 @@ function draw() {
   // write your codes here
   background(240);
 
+  fill(0);
+  
 }
