@@ -4,7 +4,7 @@ let box;
 function setup() {
   // Set up the canvas
   new Canvas(800, 500);
-  background("pink"); //background color
+  background("pink");
 
   ball = new Sprite();
   ball.x = 100;
