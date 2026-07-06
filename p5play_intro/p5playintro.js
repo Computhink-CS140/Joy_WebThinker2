@@ -7,7 +7,7 @@ function setup() {
   stroke("black")
   strokeWeight(5)
 
-  circle(250, 200, 100)
+  circle(400, 250, 100)
   
   
   // Basic shape testing
