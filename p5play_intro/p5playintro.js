@@ -15,8 +15,7 @@ function setup() {
   ball.y = 200;
   ball.diameter = 40;
   ball.color = "hotpink"
-  ball
-  circle(385, 240, 100)
+  
   
   
   // Basic shape testing
