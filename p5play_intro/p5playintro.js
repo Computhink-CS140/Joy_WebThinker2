@@ -37,6 +37,6 @@ function draw() {
 
   fill(0);
   textSize(16);
-  text("Ball: (" + int(ball.x) + "," + int(ball.y)  + ")")
-  text("Mouse: (" + mouseX + "," + mouseY  + ")")
+  text("Ball: (" + int(ball.x) + "," + int(ball.y)  + ")");
+  text("Mouse: (" + mouseX + "," + mouseY  + ")", 10, 40);
 }
