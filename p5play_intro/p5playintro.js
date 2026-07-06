@@ -10,7 +10,8 @@ function setup() {
   stroke("black");
   strokeWeight(5);
 
-  ball = new Sprite
+  ball = new Sprite();
+  ball.x = 100;
   circle(385, 240, 100)
   
   
