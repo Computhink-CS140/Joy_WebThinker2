@@ -1,3 +1,3 @@
 // the final game
 let bird, floor
-let 
+let flapMidImg, bg
