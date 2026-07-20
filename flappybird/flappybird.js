@@ -8,5 +8,5 @@ function preload() {
     base = loadImage('flappybird/assets/base.png')
 }
 function setup(){
-    
+    new (400, 600)
 }
