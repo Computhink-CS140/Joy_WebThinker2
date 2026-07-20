@@ -5,5 +5,5 @@ let flapMidImg, bg, base
 function preload() {
     flapMidImg = loadImage 
     bg = loadImage('')
-    base = loadImage('')
+    base = loadImage('flappybird/assets/base.png')
 }
