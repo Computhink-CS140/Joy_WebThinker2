@@ -39,5 +39,5 @@ function draw(){
     }
     fill("blue");
     textSize(14);
-    text('vel')
+    text('vel.y:' + birdIs)
 }
