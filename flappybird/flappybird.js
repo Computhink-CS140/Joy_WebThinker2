@@ -38,5 +38,6 @@ function draw(){
         bird.sleeping = false;
     }
     fill("blue");
-    textSize
+    textSize(14);
+    text('vel')
 }
