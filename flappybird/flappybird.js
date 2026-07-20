@@ -18,7 +18,9 @@ function setup(){
 
     bird.collider = "dynamic"
     bird.mass = 2
-    bird
+    bird.drag = 0.02
+    bird.bounciness = 0.5
+    world.gravity = 
 }
 function draw(){
     image(bg, 0, 0, width, height)
