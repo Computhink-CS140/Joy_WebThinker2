@@ -14,13 +14,12 @@ function setup(){
     bird.y = 200;
     bird.width = 30;
     bird.height = 30;
-    bird.img = flapMidImg
+    bird.img = flapMidImg;
 
-    bird.collider = "dynamic"
-    bird.mass = 2
-    bird.drag = 0.02
-    bird.bounciness = 0.5
-    world.gravity.y = 10
+    bird.collider = "dynamic"    bird.mass = 2;
+    bird.drag = 0.02;
+    bird.bounciness = 0.5;
+    world.gravity.y = 10;
 }
 function draw(){
     image(bg, 0, 0, width, height)
