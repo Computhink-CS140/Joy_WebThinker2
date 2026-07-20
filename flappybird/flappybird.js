@@ -22,7 +22,8 @@ function setup(){
     bird.bounciness = 0.5;
     world.gravity.y = 10;
 
-    floor
+    floor = new Sprite();
+    
 }
 function draw(){
     image(bg, 0, 0, width, height)
