@@ -1,2 +1,3 @@
 // the final game
-let bird
+let bird, floor
+let 
