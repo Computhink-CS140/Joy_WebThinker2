@@ -39,6 +39,6 @@ function draw(){
     }
     fill("blue");
     textSize(14);
-    text('vel.y:' + bird.isMoving)
-    text('sleeping' + bird.sleepin)
+    text('vel.y:' + bird.isMoving);
+    text('sleeping' + bird.sleeping);
 }
