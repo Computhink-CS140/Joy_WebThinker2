@@ -1,3 +1,7 @@
 // the final game
 let bird, floor
-let flapMidImg, bg
+let flapMidImg, bg, base
+
+function preload() {
+    
+}
