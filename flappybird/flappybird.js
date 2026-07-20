@@ -4,5 +4,6 @@ let flapMidImg, bg, base
 
 function preload() {
     flapMidImg = loadImage 
-    bg = loadImage
+    bg = loadImage('')
+    base = loadImage
 }
