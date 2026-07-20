@@ -27,6 +27,7 @@ function setup(){
     floor.y = -20;
     floor.width = 400;
     floor.height = 125;
+    floor.collider = "static";
     
 }
 function draw(){
