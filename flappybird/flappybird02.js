@@ -40,7 +40,7 @@ function draw(){
         bird.sleeping = false;
     }
     if (bird.y = -ve){
-        
+        bird.img
     }
     fill("blue");
     textSize(14);
