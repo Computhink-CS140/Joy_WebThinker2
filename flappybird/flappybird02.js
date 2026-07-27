@@ -68,6 +68,7 @@ function draw(){
     }
 }
 function spawnPipePair(){
-    
+    let gap = 50;
+    let midY = height
     pipeGroup.layer = 0;
 }
