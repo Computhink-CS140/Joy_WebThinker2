@@ -60,6 +60,6 @@ function draw(){
     text('sleeping' + bird.sleeping);
     
     if (frameCount === 1){
-        spawnPipePair
+        spawnPipePair();
     }
 }
