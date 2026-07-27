@@ -45,7 +45,9 @@ function draw(){
     if (bird.y > 0) {
         bird.img = flapUpImg
     }
-    if (bird.y = 0)
+    if (bird.y = 0){
+        
+    }
     fill("blue");
     textSize(14);
     text('vel.y:' + bird.isMoving);
