@@ -4,6 +4,8 @@ let flapMidImg, bg, base
 
 function preload() {
     flapMidImg = loadImage('assets/yellowbird-midflap.png') 
+    flapDownImg = loadImage('assets/yellowbird-downflap.png')
+    flapUpImg = loadImage('assets/yellowbird-upflap.png')
     bg = loadImage('assets/background-day.png')
     base = loadImage('assets/base.png')
 }
@@ -36,6 +38,9 @@ function draw(){
     if (kb.presses('space')){
         bird.vel.y = - 5;
         bird.sleeping = false;
+    }
+    if (bird.y = -ve){
+        
     }
     fill("blue");
     textSize(14);
