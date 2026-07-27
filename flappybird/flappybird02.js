@@ -43,7 +43,7 @@ function draw(){
         bird.img = flapDownImg
     }
     if (bird.y = +ve) {
-        bird.img
+        bird.img = flapUpImg
     }
     fill("blue");
     textSize(14);
