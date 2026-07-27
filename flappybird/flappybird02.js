@@ -41,7 +41,7 @@ function draw(){
     }
     if (bird.vel.y < 0){
         bird.img = flapDownImg;
-        bird.rotation = -45;
+        bird.rotation = -20;
     }
     if (bird.vel.y > 0) {
         bird.img = flapUpImg;
@@ -49,7 +49,7 @@ function draw(){
     }
     if (bird.vel.y == 0){
         bird.img = flapMidImg;
-        bird.rotation == 0;
+        bird.rotation = 0;
     }
     
     fill("blue");
