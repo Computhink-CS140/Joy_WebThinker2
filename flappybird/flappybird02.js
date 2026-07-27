@@ -1,6 +1,6 @@
 // the final game
 let bird, floor
-let flapMidImg, bg, base
+let flapMidImg, bg, base, pipeGroup
 
 function preload() {
     flapMidImg = loadImage('assets/yellowbird-midflap.png') 
@@ -64,5 +64,5 @@ function draw(){
     }
 }
 function spawnPipePair(){
-    
+
 }
