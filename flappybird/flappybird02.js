@@ -59,5 +59,7 @@ function draw(){
     text('vel.y:' + bird.isMoving);
     text('sleeping' + bird.sleeping);
     
-    if (frameCount === 1)
+    if (frameCount === 1){
+        spawnPipePair
+    }
 }
