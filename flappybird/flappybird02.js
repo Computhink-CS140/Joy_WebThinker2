@@ -3,6 +3,7 @@ let bird, floor
 let flapMidImg, bg, base
 let pipe
 let bottomPipe
+let pipeGroup
 
 function preload() {
     flapMidImg = loadImage('assets/yellowbird-midflap.png') 
@@ -10,7 +11,7 @@ function preload() {
     flapUpImg = loadImage('assets/yellowbird-upflap.png')
     bg = loadImage('assets/background-day.png')
     base = loadImage('assets/base.png')
-    pioe = loadImage('assets/pipe-green.png')
+    pipe = loadImage('assets/pipe-green.png')
 }
 function setup(){
     new Canvas(400, 600)
