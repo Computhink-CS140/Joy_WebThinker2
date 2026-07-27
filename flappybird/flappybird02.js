@@ -46,7 +46,7 @@ function draw(){
         bird.img = flapUpImg
     }
     if (bird.y = 0){
-        
+        bird.img = flapMidImg
     }
     fill("blue");
     textSize(14);
