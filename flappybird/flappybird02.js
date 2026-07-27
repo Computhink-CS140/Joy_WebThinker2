@@ -58,4 +58,6 @@ function draw(){
     textSize(14);
     text('vel.y:' + bird.isMoving);
     text('sleeping' + bird.sleeping);
+    
+    if (frameCount === 1)
 }
