@@ -40,13 +40,13 @@ function draw(){
         bird.sleeping = false;
     }
     if (bird.y < 0){
-        bird.img = flapDownImg
+        bird.img = flapDownImg;
     }
     if (bird.y > 0) {
-        bird.img = flapUpImg
+        bird.img = flapUpImg;
     }
     if (bird.y == 0){
-        bird.img = flapMidImg
+        bird.img = flapMidImg;
     }
     fill("blue");
     textSize(14);
