@@ -31,6 +31,8 @@ function setup(){
     floor.height = 125;
     floor.collider = "static";
     floor.img = base;
+
+    pipeGroup = new Group
 }
 function draw(){
     image(bg, 0, 0, width, height);
