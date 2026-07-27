@@ -74,10 +74,10 @@ function spawnPipePair(){
     // topPipe = new Sprite(400, midY + gap / 2 + 300, 52, 320, 'static')
     // topPipe.img = pipe;
 
-    bottomPipe = new Sprite(400, midY + gap / 2 + 200, 52, 320, 'static')
+    bottomPipe = new Sprite(400, midY + gap / 2 + 300, 52, 320, 'static')
     bottomPipe.img = pipe;
 
-    pipeGroup.add(topPipe)
+    // pipeGroup.add(topPipe)
     pipeGroup.add(bottomPipe)
     pipeGroup.layer = 0;
 }
