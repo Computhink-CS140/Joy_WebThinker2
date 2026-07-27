@@ -68,5 +68,6 @@ function draw(){
     }
 }
 function spawnPipePair(){
+    
     pipeGroup.layer = 0;
 }
