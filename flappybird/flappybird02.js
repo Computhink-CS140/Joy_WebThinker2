@@ -40,7 +40,7 @@ function draw(){
         bird.sleeping = false;
     }
     if (bird.y = -ve){
-        bird.img
+        bird.img = flapDownImg
     }
     fill("blue");
     textSize(14);
