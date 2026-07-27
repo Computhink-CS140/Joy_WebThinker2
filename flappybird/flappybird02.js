@@ -39,7 +39,7 @@ function draw(){
         bird.vel.y = - 5;
         bird.sleeping = false;
     }
-    if (bird.y = -ve){
+    if (bird.y = x){
         bird.img = flapDownImg
     }
     if (bird.y = +ve) {
