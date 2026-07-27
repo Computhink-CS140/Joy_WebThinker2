@@ -68,5 +68,5 @@ function draw(){
     }
 }
 function spawnPipePair(){
-    pipes = pipeGroup
+    pipeGroup.layer = 0;
 }
