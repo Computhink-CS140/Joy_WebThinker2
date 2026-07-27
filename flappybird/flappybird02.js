@@ -42,10 +42,10 @@ function draw(){
     if (bird.y.vel < 0){
         bird.img = flapDownImg;
     }
-    if (bird.y.vel > 0) {
+    if (bird.vel.y > 0) {
         bird.img = flapUpImg;
     }
-    if (bird.y.vel == 0){
+    if (bird.vel.y == 0){
         bird.img = flapMidImg;
     }
     fill("blue");
