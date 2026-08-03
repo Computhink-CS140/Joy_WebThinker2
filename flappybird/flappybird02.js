@@ -83,4 +83,6 @@ function spawnPipePair(){
     pipeGroup.layer = 0;
 
     bird.x += 3;
+    camera.x = bird.x;
+    floor.x = bird.x;
 }
