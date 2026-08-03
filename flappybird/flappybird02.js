@@ -100,7 +100,8 @@ function draw(){
     }
 
     if (kb.presses ('space') || mouse.presses()){
-        stare
+        startGame = true;
+        
     }
 }
 
