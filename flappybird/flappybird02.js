@@ -4,6 +4,8 @@ let flapMidImg, bg, base
 let pipe
 let bottomPipe
 let pipeGroup
+let gameoverImg;
+let gameoverLabel;
 
 function preload() {
     flapMidImg = loadImage('assets/yellowbird-midflap.png') 
@@ -12,6 +14,7 @@ function preload() {
     bg = loadImage('assets/background-day.png')
     base = loadImage('assets/base.png')
     pipe = loadImage('assets/pipe-green.png')
+    gameoverImg = loadImage('assets/gameover.png')
 }
 function setup(){
     new Canvas(400, 600)
@@ -81,9 +84,15 @@ function draw(){
         }
     }
     if (bird.collides(pipeGroup) || bird.collides(floor)){
+        gameoverLabel = new Sprite(width/2, height/2, 192, 42);
+        gameoverLabel.img = gameoverImg;
+        gameoverLabel.layer = 100;
+        gameoverLabel.x = camera.x;
+
         noLoop();
     }
 }
+
 function spawnPipePair(){
     let gap = 50;
     let midY = random(250, height - 250);
