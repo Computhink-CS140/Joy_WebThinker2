@@ -108,7 +108,12 @@ function draw() {
             gameoverLabel.x = camera.x;
 
             noLoop();
-            if (noLoop){}
+            if (noLoop){
+                if (kb.presses('space')) {
+                    bird.vel.y = - 5;
+                    bird.sleeping = false;
+                    bird.collider = "dynamic"
+            }
         }
 
         
