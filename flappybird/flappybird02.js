@@ -66,6 +66,10 @@ function draw(){
     if (frameCount === 1){
         spawnPipePair();
     }
+    
+    bird.x += 3;
+    camera.x = bird.x;
+    floor.x = bird.x;
 }
 function spawnPipePair(){
     let gap = 50;
@@ -82,5 +86,5 @@ function spawnPipePair(){
     pipeGroup.add(bottomPipe)
     pipeGroup.layer = 0;
 
-    
+
 }
