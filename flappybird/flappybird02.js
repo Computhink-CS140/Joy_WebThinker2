@@ -71,13 +71,13 @@ function draw(){
             bird.rotation = 0;
         }
     
-    fill("blue");
-    textSize(14);
-    text('vel.y:' + bird.isMoving);
-    text('sleeping' + bird.sleeping);
+        fill("blue");
+        textSize(14);
+        text('vel.y:' + bird.isMoving);
+        text('sleeping' + bird.sleeping);
     
-    if (frameCount === 1){
-        spawnPipePair();
+        if (frameCount === 1){
+     spawnPipePair();
     }
 
     bird.x += 3;
