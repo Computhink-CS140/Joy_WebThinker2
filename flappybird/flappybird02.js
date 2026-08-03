@@ -50,6 +50,9 @@ function setup(){
     startScreenLabel.img = startScreenImg;
 }
 function draw(){
+    if startGame{
+        
+    }
     image(bg, 0, 0, width, height);
 
     if (kb.presses('space')){
