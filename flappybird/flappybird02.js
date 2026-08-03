@@ -66,10 +66,10 @@ function draw(){
             bird.img = flapUpImg;
             bird.rotation = 20;
         }
-    if (bird.vel.y == 0){
-        bird.img = flapMidImg;
-        bird.rotation = 0;
-    }
+        if (bird.vel.y == 0){
+            bird.img = flapMidImg;
+            bird.rotation = 0;
+        }
     
     fill("blue");
     textSize(14);
