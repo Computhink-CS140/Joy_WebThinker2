@@ -50,14 +50,14 @@ function setup(){
     startScreenLabel.img = startScreenImg;
 }
 function draw(){
-
+    image(bg, 0, 0, width, height);
     if (startGame){
         
 
-    if (kb.presses('space')){
-        bird.vel.y = - 5;
-        bird.sleeping = false;
-    }
+        if (kb.presses('space')){
+            bird.vel.y = - 5;
+            bird.sleeping = false;
+        }
     if (bird.vel.y < 0){
         bird.img = flapDownImg;
         bird.rotation = -20;
