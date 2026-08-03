@@ -45,13 +45,13 @@ function draw(){
         bird.vel.y = - 5;
         bird.sleeping = false;
     }
-    if (bird.vel.y < 0){
+    if (bird.vel.y < 1){
         bird.img = flapDownImg;
-        bird.rotation = -20;
+        bird.rotation = -30;
     }
     if (bird.vel.y > 0) {
         bird.img = flapUpImg;
-        bird.rotation = 20;
+        bird.rotation = 30;
     }
     if (bird.vel.y == 0){
         bird.img = flapMidImg;
