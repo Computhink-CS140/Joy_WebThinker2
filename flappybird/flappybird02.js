@@ -98,6 +98,10 @@ function draw(){
 
         noLoop();
     }
+
+    if (kb.presses ('space') || mouse.presses()){
+        stare
+    }
 }
 
 function spawnPipePair(){
