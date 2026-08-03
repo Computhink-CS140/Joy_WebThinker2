@@ -50,62 +50,10 @@ function setup(){
     startScreenLabel.img = startScreenImg;
 }
 function draw(){
-    if startGame{
-        
-    }
-    image(bg, 0, 0, width, height);
+    if (startGame{
 
-    if (kb.presses('space')){
-        bird.vel.y = - 5;
-        bird.sleeping = false;
-    }
-    if (bird.vel.y < 0){
-        bird.img = flapDownImg;
-        bird.rotation = -20;
-    }
-    if (bird.vel.y > 0) {
-        bird.img = flapUpImg;
-        bird.rotation = 20;
-    }
-    if (bird.vel.y == 0){
-        bird.img = flapMidImg;
-        bird.rotation = 0;
     }
     
-    fill("blue");
-    textSize(14);
-    text('vel.y:' + bird.isMoving);
-    text('sleeping' + bird.sleeping);
-    
-    if (frameCount === 1){
-        spawnPipePair();
-    }
-
-    bird.x += 3;
-    camera.x = bird.x;
-    floor.x = bird.x;
-
-    if (frameCount % 90 === 0){
-        spawnPipePair();
-    }
-    for (let pipe of pipeGroup){
-        if (pipe.x < -50){
-            pipe.remove();
-        }
-    }
-    if (bird.collides(pipeGroup) || bird.collides(floor)){
-        gameoverLabel = new Sprite(width/2, height/2, 192, 42);
-        gameoverLabel.img = gameoverImg;
-        gameoverLabel.layer = 100;
-        gameoverLabel.x = camera.x;
-
-        noLoop();
-    }
-
-    if (kb.presses ('space') || mouse.presses()){
-        startGame = true;
-        startScreenLabel.visible = false
-    }
 }
 
 function spawnPipePair(){
