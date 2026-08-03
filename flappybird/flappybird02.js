@@ -47,7 +47,6 @@ function setup(){
 
     startScreenLabel = new Sprite(width/2, height/2, 50, 50, 'none');
     startScreenLabel.img = startScreenImg;
-    startScreenLabel.layer = 100;
 }
 function draw(){
     image(bg, 0, 0, width, height);
