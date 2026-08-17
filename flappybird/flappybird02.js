@@ -68,7 +68,7 @@ function draw() {
             startGame = true;
             startScreenLabel.visible = false
             bird.visible = true
-        }
+    }
 
     if (startGame) {
 
@@ -112,6 +112,9 @@ function draw() {
                 pipe.remove();
             }
         }
+
+        drawScore(width/2,20,score,24,36)
+
         if (bird.collides(pipeGroup) || bird.collides(floor)) {
             gameoverLabel = new Sprite(width / 2, height / 2, 192, 42);
             gameoverLabel.img = gameoverImg;
@@ -121,7 +124,7 @@ function draw() {
             noLoop();
             
         }
-        drawScore(width/2, 20, score, 24, 36)
+        
 
         
     }
@@ -145,13 +148,14 @@ function spawnPipePair() {
 
 
 }
+
 function drawScore(x, y, score, digitWidth, digitHeight) {
     scoreDigits.removeAll();
     let scoreStr = str(score);
     let totalWidth = scoreStr.length * digitWidth;
     let startX = x - totalWidth / 2;
 
-    for (let i = 0; i < scoreStr; i++) {
+    for (let i = 0; i < scoreStr.length; i++) {
         let digit = int(scoreStr[i]);
         let xPos = startX + i * digitWidth;
         let digitSprite = new scoreDigits.Sprite(xPos, y, digitWidth, digitHeight);
