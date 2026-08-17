@@ -144,3 +144,6 @@ function spawnPipePair() {
 
 
 }
+function frawScore(x, y, score, digitWidth, digitHeight) {
+    
+}
