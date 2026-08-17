@@ -23,7 +23,7 @@ function preload() {
     gameoverImg = loadImage('assets/gameover.png')
     startScreenImg = loadImage('assets/message.png')
     for (let i = 0; i < 10; i ++){
-        numberImages[i] = loadImage('assets/' + i + '.')
+        numberImages[i] = loadImage('assets/' + i + '.png');
     }
 }
 function setup() {
@@ -55,7 +55,12 @@ function setup() {
 
     startScreenLabel = new Sprite(width / 2, height / 2, 50, 50, 'none');
     startScreenLabel.img = startScreenImg;
+    
+    scoreDigits = new Group();
+    scoreDigits.collider = 'none';
+    scoreDigits.layer = 1000;
 }
+
 function draw() {
     image(bg, 0, 0, width, height);
 
