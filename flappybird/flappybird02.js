@@ -151,5 +151,7 @@ function drawScore(x, y, score, digitWidth, digitHeight) {
     let totalWidth = scoreStr.length * digitWidth;
     let startX = x - totalWidth / 2;
 
-    for (let i = 0; i < scoreStr; i++)
+    for (let i = 0; i < scoreStr; i++) {
+        let digit = in
+    }
 }
