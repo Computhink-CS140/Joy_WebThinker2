@@ -152,6 +152,7 @@ function drawScore(x, y, score, digitWidth, digitHeight) {
     let startX = x - totalWidth / 2;
 
     for (let i = 0; i < scoreStr; i++) {
-        let digit = int(scoreStr)
+        let digit = int(scoreStr[i]);
+        
     }
 }
