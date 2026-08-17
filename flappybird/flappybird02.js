@@ -9,6 +9,7 @@ let gameoverLabel;
 let startScreenLabel;
 let startScreenImg;
 let startGame = false;
+let
 
 function preload() {
     flapMidImg = loadImage('assets/yellowbird-midflap.png')
