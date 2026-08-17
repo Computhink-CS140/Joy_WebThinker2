@@ -113,7 +113,7 @@ function draw() {
             }
         }
 
-        drawScore(width/2,20,score,24,36)
+        drawScore(width/2,30,score,24,36)
 
         for (let pipe of pipeGroup) {
             let pipeRightEdge = pipe.x + pipe.w / 2
