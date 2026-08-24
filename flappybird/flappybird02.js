@@ -82,6 +82,7 @@ function draw() {
             bird.vel.y = - 5;
             bird.sleeping = false;
             bird.collider = "dynamic"
+            flapSound = createAudio("assets/sfx_wing.mp3");
         }
         if (bird.vel.y < 0) {
             bird.img = flapDownImg;
