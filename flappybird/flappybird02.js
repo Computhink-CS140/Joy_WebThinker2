@@ -26,7 +26,8 @@ function preload() {
     for (let i = 0; i < 10; i ++){
         numberImages[i] = loadImage('assets/' + i + '.png');
     }
-    flapSound = createAudio
+    flapSound = createAudio("")
+    
 }
 function setup() {
     new Canvas(400, 600)
