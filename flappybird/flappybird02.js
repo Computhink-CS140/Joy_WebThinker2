@@ -38,9 +38,9 @@ function setup() {
 
     bird.visible = false
     bird.collider = "static"
-    bird.mass = 10;
-    bird.drag = 0.02;
-    bird.bounciness = 10;
+    bird.mass = 100;
+    bird.drag = 10;
+    bird.bounciness = 0.05;
     world.gravity.y = 10;
 
     floor = new Sprite();
