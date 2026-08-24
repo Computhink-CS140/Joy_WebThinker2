@@ -141,6 +141,7 @@ function draw() {
 
             noLoop();
             
+            setTimeo
         }
         
 
