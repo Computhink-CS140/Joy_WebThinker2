@@ -28,7 +28,7 @@ function preload() {
     }
     flapSound = createAudio("assets/sfx_wing.mp3");
     flapSound = createAudio("assets/sfx_wing.mp3");
-    
+    failSound = createAudio("assets/sfx_wing.mp3");
 
 }
 function setup() {
