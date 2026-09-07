@@ -8,3 +8,8 @@ function setup () {
     newCanvas(800, 600);
     world.gravity.y = 10;
 }
+
+function draw () {
+    clear();
+    
+}
