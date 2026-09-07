@@ -33,7 +33,7 @@ function spawnFruit () {
     let fruit = new fruitGroup.Sprite(randomX, height + 20, 40);
     fruit.image = fruitData.whole;
     fruit.type = fruitData;
-    fruit.vel.y = (-10, );
+    fruit.vel.y = (-10, -14);
     fruit.vel.x = (-2, 2);
     fruit.friction = 0;
 }
