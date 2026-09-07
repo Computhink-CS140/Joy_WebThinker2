@@ -4,7 +4,9 @@ function preload() {
     dojoBG = loadImage('assets/dojobackground.png');
     let peach = {
         whole: loadImage('assats/peachwhole.png')
-    }
+    };
+
+    
 }
 
 function setup () {
