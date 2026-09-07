@@ -3,11 +3,11 @@ let dojoBG;
 function preload() {
     dojoBG = loadImage('assets/dojobackground.png');
     let peach = {
-        whole: loadImage('assats/peachwhole.png')
+        whole: loadImage('assets/peachwhole.png')
     };
 
     let watermelon = {
-        whole: loadImage('assats/watermelonwhole.png')
+        whole: loadImage('assets/watermelonwhole.png')
     };
 }
 
