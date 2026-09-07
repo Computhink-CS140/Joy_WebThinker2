@@ -6,8 +6,8 @@ function preload() {
         whole: loadImage('assats/peachwhole.png')
     };
 
-    let peach = {
-        whole: loadImage('assats/peachwhole.png')
+    let watermelon = {
+        whole: loadImage('assats/watermelonwhole.png')
     };
 }
 
