@@ -1,3 +1,4 @@
+let dojoBG;
 
 
 function setup () {
