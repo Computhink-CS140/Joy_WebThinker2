@@ -6,7 +6,9 @@ function preload() {
         whole: loadImage('assats/peachwhole.png')
     };
 
-    
+    let peach = {
+        whole: loadImage('assats/peachwhole.png')
+    };
 }
 
 function setup () {
