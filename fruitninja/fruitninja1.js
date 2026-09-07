@@ -2,6 +2,9 @@ let dojoBG;
 
 function preload() {
     dojoBG = loadImage('assets/dojobackground.png');
+    let peach = {
+        
+    }
 }
 
 function setup () {
