@@ -80,13 +80,13 @@ function sliceFruit() {
         left.vel.x = -3;
         left.vel.y = random(-5, -2);
         left.rotationSpeed = -5;
-        left.life = 30;
+        left.life = 100;
 
         let right = new fruitHalves.Sprite(x + 10, y, 40, 40);
         right.img = fruitData.half1;
         right.vel.x = 3;
         right.vel.y = random(-5, -2);
         right.rotationSpeed = 5;
-        right.life = 30;
+        right.life = 100;
     }
 }
