@@ -65,9 +65,12 @@ function sliceFruit() {
             fruit.sliced = true;
 
             const fx = fruit.x
+            const fy = fruit.y
 
             fruit.remove();
 
+
+            
             break;
         }
     }
