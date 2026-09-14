@@ -26,6 +26,7 @@ function setup () {
     world.gravity.y = 10;
 
     fruitGroup = new Group();
+    fruitHalves = new Group()
 }
 
 function draw () {
