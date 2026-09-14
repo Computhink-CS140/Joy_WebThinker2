@@ -36,6 +36,7 @@ function draw () {
         trail.color = "red";
         trail.life = 10;
     }
+    
 }
 function spawnFruit () {
     let fruitData = random(fruitTypes);
