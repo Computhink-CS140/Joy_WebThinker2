@@ -48,3 +48,6 @@ function spawnFruit () {
     fruit.vel.x = (-2, 2);
     fruit.friction = 0;
 }
+function sliceFruit(){
+    
+}
