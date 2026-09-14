@@ -86,7 +86,7 @@ function sliceFruit() {
         right.img = fruitData.half1;
         right.vel.x = -3;
         right.vel.y = random(-5, -2);
-        left.rotationSpeed = -5;
-        left.life = 30;
+        right.rotationSpeed = 5;
+        right.life = 30;
     }
 }
